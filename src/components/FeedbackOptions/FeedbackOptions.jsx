@@ -1,4 +1,3 @@
-//import React from 'react';
 import css from './FeedbackOptions.module.css';
 import propTypes from 'prop-types';
 
