@@ -33,7 +33,6 @@ export class App extends React.Component {
       <div
         style={{
           height: '100vh',
-          //display: 'flex',
           alignItems: 'center',
           fontSize: 40,
           color: '#010101',
@@ -48,7 +47,7 @@ export class App extends React.Component {
         </Section>
 
         <Section title="Statistics">
-          {this.total() !== 0 ? (
+          {this.total() ? (
             <Statistics
               good={this.state.good}
               neutral={this.state.neutral}
